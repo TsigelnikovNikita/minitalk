@@ -8,8 +8,8 @@ include_directories(libft)
 
 
 add_executable(minitalk
-        server/server.c
-#        client/client.c
+#        server_src/server_src.c
+        client_src/client.c
         )
 
 link_directories(libft/)
